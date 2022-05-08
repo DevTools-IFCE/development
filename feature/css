@@ -1,0 +1,51 @@
+@import url("cores.css");
+@import url("../css/fonts.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY E CONTAINER */
+body {
+    margin: auto;
+    text-align: center;
+
+    color: var(--whiteColor);
+    background-color: var(--secondaryColor);
+}
+
+/* HEADER */
+.description {
+    margin-top: 5%;
+    font-size: 17pt;
+    text-transform: uppercase;
+
+    font-family: 'VCROSDMONO';
+}
+
+/* MENU */
+nav {
+    max-width: 850px;
+    width: 100%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10% 0;
+}
+
+nav ul li {
+    border: 2px dashed var(--whiteColor);
+    padding: 7%;
+    margin-bottom: 5%;
+
+    font-size: 18pt;
+    text-decoration: none;
+
+    color: var(--whiteColor);
+
+    font-family: 'VCROSDMONO';
+}
